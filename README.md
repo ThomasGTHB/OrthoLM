@@ -51,4 +51,5 @@ Cluster embedded proteins with k-means algorithm and analyse the final clusters:
 ```
 jupyter notebook # open the notebook
 ```
-Within the notebook, if you cannot load all modules verify that you are loading with Python 3.10.12 (import sys; print(sys.version)). When opening the notebook, select the kernel with homology_detection__env name.
+Within the notebook, if you cannot load all modules verify that you are loading with Python 3.10.12 (import sys; print(sys.version)).
+When opening the notebook, select the kernel with homology_detection__env name.
