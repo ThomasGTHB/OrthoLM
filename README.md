@@ -44,7 +44,7 @@ EMB_LAYER=${EMB_LAYER_list[$model_index]}
 
 # Embedding of the sequences inside the fasta file
 speciesName="pfal_pber"
-time CUDA_VISIBLE_DEVICES=0 python3 esm/scripts/extract.py "$model" "Datasets/$speciesName.fasta" "Datasets/$speciesName_emb_$model/" --repr_layers $t_size --include mean
+time CUDA_VISIBLE_DEVICES=0 python3 esm/scripts/extract.py "$model" "Datasets/${speciesName}.fasta" "Datasets/${speciesName}_emb_${model}/" --repr_layers $EMB_LAYER --include mean
 ```
 
 Cluster embedded proteins with k-means algorithm and analyse the final clusters: Python code in the Jupyter notebook
