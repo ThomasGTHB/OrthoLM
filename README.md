@@ -41,7 +41,7 @@ model=${model_list[$model_index]}
 EMB_LAYER=${EMB_LAYER_list[$model_index]}
 
 # Embedding of the sequences inside the fasta file
-speciesName="pber_pfal"
+speciesName="pfal_pber"
 time CUDA_VISIBLE_DEVICES=0 python3 /esm/scripts/extract.py "$model" "$speciesName.fasta" "/$speciesName_emb_$model/" --repr_layers $t_size --include mean
 ```
 
