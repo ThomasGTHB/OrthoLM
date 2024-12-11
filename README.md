@@ -45,7 +45,8 @@ speciesName="pfal_pber"
 time CUDA_VISIBLE_DEVICES=0 python3 /esm/scripts/extract.py "$model" "$speciesName.fasta" "/$speciesName_emb_$model/" --repr_layers $t_size --include mean
 ```
 
-# The rest of the code for clustering embedded proteins and analysing the results is in the notebook.
-
+Cluster embedded proteins with k-means algorithm and analyse the final clusters: Python code in the Jupyter notebook
+```
 jupyter notebook # clustering with the Python notebook
-# Within the notebook, if you cannot load all modules verify that you are loading with Python 3.10.12 (import sys; print(sys.version))
+```
+Within the notebook, if you cannot load all modules verify that you are loading with Python 3.10.12 (import sys; print(sys.version))
