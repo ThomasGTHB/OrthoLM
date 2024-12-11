@@ -21,7 +21,7 @@ Create the environment
 ```
 conda create -y --name homology_detection__env python==3.10.12
 conda activate homology_detection__env
-#python3 -m venv homology_detection__env.env # alternatively if you have already Python 3.10.12 installed
+#python3 -m venv homology_detection__env.env # alternatively if you already have Python 3.10.12 installed
 #source homology_detection__env.env/bin/activate
 
 python3 -m pip install -r environment_pip.txt
