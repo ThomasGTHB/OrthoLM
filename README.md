@@ -2,7 +2,7 @@
 
 Creation of orthologous groups of proteins using large language models and unsupervised clustering
 
-This code was developed for a computer with Linux distribution. It might need adjustments for Windows or Mac computers.
+This code was developed for a computer with Linux distribution. It might need adjustments for Windows or Mac distributions.
 
 # Instructions for use
 
