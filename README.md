@@ -49,6 +49,6 @@ time CUDA_VISIBLE_DEVICES=0 python3 esm/scripts/extract.py "$model" "Datasets/${
 
 Cluster embedded proteins with k-means algorithm and analyse the final clusters: Python code in the Jupyter notebook
 ```
-jupyter notebook # open the notebook
+jupyter notebook
 ```
-When opening the notebook, select the kernel with homology_detection__env name.
+After opening the notebook, select the kernel with homology_detection__env name.
