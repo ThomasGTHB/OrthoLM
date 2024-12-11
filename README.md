@@ -36,11 +36,12 @@ model_list=("esm2_t48_15B_UR50D" "esm2_t36_3B_UR50D" "esm2_t33_650M_UR50D" "esm2
 EMB_LAYER_list=(48 36 33 30 12 6)
 
 model_index=2 # change to select the model
+
 model=${model_list[$model_index]}
 EMB_LAYER=${EMB_LAYER_list[$model_index]}
 
-# Embedding of the sequence file data.fasta
-speciesName="data"
+# Embedding of the sequences inside the fasta file
+speciesName="pber_pfal"
 time CUDA_VISIBLE_DEVICES=0 python3 /esm/scripts/extract.py "$model" "$speciesName.fasta" "/$speciesName_emb_$model/" --repr_layers $t_size --include mean
 ```
 
