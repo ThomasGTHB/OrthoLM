@@ -9,7 +9,8 @@ This code was developed for a computer with Linux distribution. It might need ad
 Open terminal and clone the GitHub repository
 
 ```
-cd "~/project_repository/"
+git clone https://github.com/ThomasGTHB/OrthoLM.git
+cd OrthoLM
 mkdir Results
 git clone https://github.com/facebookresearch/esm.git
 ```
