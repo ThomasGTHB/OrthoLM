@@ -13,7 +13,7 @@ git clone https://github.com/ThomasGTHB/OrthoLM.git
 cd OrthoLM
 mkdir Results
 
-git clone https://github.com/facebookresearch/esm.git
+git clone https://github.com/facebookresearch/esm.git # Required for running ESM
 ```
 
 Create the environment
