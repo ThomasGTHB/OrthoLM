@@ -47,6 +47,6 @@ time CUDA_VISIBLE_DEVICES=0 python3 /esm/scripts/extract.py "$model" "$speciesNa
 
 Cluster embedded proteins with k-means algorithm and analyse the final clusters: Python code in the Jupyter notebook
 ```
-jupyter notebook # clustering with the Python notebook
+jupyter notebook # open the notebook
 ```
 Within the notebook, if you cannot load all modules verify that you are loading with Python 3.10.12 (import sys; print(sys.version))
