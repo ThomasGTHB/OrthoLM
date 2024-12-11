@@ -25,6 +25,8 @@ conda activate homology_detection__env
 #source homology_detection__env.env/bin/activate
 
 python3 -m pip install -r environment_pip.txt
+
+python3 -m ipykernel install --user --name=homology_detection__env # set the virtual environment as a Jupyter kernel
 ```
 
 Create embedding representations from protein fasta files
@@ -49,4 +51,4 @@ Cluster embedded proteins with k-means algorithm and analyse the final clusters:
 ```
 jupyter notebook # open the notebook
 ```
-Within the notebook, if you cannot load all modules verify that you are loading with Python 3.10.12 (import sys; print(sys.version))
+Within the notebook, if you cannot load all modules verify that you are loading with Python 3.10.12 (import sys; print(sys.version)). When opening the notebook, select the kernel with homology_detection__env name.
