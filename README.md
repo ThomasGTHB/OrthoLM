@@ -6,7 +6,7 @@ This code was developed for a computer with Linux distribution. It might need ad
 
 # Instructions for use
 
-Open terminal and clone the GitHub repository
+Open the terminal and clone the GitHub repository
 
 ```
 git clone https://github.com/ThomasGTHB/OrthoLM.git
@@ -47,7 +47,7 @@ speciesName="pfal_pber"
 time CUDA_VISIBLE_DEVICES=0 python3 esm/scripts/extract.py "$model" "Datasets/${speciesName}.fasta" "Datasets/${speciesName}_emb_${model}/" --repr_layers $EMB_LAYER --include mean
 ```
 
-Cluster embedded proteins with k-means algorithm and analyse the final clusters: Python code in the Jupyter notebook
+Cluster embedded proteins with the k-means algorithm and analyse the final clusters: Python code in the Jupyter notebook
 ```
 jupyter notebook
 ```
