@@ -32,6 +32,8 @@ python3 -m ipykernel install --user --name=homology_detection__env # set the vir
 Create embedding representations from protein fasta files
 (Exact syntax might change depending on your system)
 
+We provide pre-computed embeddings for the esm2_t36_3B_UR50D model in the Datasets folder.
+
 ```
 # Choose the embedding model
 model_list=("esm2_t48_15B_UR50D" "esm2_t36_3B_UR50D" "esm2_t33_650M_UR50D" "esm2_t30_150M_UR50D" "esm2_t12_35M_UR50D" "esm2_t6_8M_UR50D")
