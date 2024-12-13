@@ -37,7 +37,7 @@ Create embedding representations from protein fasta files
 model_list=("esm2_t48_15B_UR50D" "esm2_t36_3B_UR50D" "esm2_t33_650M_UR50D" "esm2_t30_150M_UR50D" "esm2_t12_35M_UR50D" "esm2_t6_8M_UR50D")
 EMB_LAYER_list=(48 36 33 30 12 6)
 
-model_index=2 # change to select the model
+model_index=1 # change to select the model
 
 model=${model_list[$model_index]}
 EMB_LAYER=${EMB_LAYER_list[$model_index]}
